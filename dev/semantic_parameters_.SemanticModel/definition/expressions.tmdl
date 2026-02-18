@@ -1,0 +1,7 @@
+expression Parameter1 = "m4ybql57hwteraxrv2eqj32rly-dej4ympy634ezloakihztr2uvi.datawarehouse.fabric.microsoft.com" meta [IsParameterQuery=true, List={"m4ybql57hwteraxrv2eqj32rly-dej4ympy634ezloakihztr2uvi.datawarehouse.fabric.microsoft.com", "m4ybql57hwteraxrv2eqj32rly-db37it64s3budeqvsnbrcvwlcy.datawarehouse.fabric.microsoft.com"}, DefaultValue="m4ybql57hwteraxrv2eqj32rly-dej4ympy634ezloakihztr2uvi.datawarehouse.fabric.microsoft.com", Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 21cd9fcf-c93e-4660-abee-4d3caca4755f
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+

@@ -1,0 +1,49 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Dataflow 1",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "customers": {
+      "queryId": "c7c9b75f-af15-44cf-a0e6-130745eda689",
+      "queryName": "customers",
+      "loadEnabled": false
+    },
+    "fact": {
+      "queryId": "7fe80b49-0e49-4a7b-98e6-416beadb5a8f",
+      "queryName": "fact",
+      "loadEnabled": false
+    },
+    "products": {
+      "queryId": "7d3ef24f-8e69-47d5-8c04-dc245869a33c",
+      "queryName": "products",
+      "loadEnabled": false
+    },
+    "products_DataDestination": {
+      "queryId": "c072ebcc-fa89-4655-b123-46f689e5563a",
+      "queryName": "products_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "fact_DataDestination": {
+      "queryId": "5ffcb7e8-99cb-40fc-8f3a-d620ba55331f",
+      "queryName": "fact_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "customers_DataDestination": {
+      "queryId": "a4ec8f45-d4a1-451c-931c-4de0d2a0a21f",
+      "queryName": "customers_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"4735f433-adf1-45df-a25a-d853eab86a8a\",\"DatasourceId\":\"40c577df-5ea3-4b71-81df-3bb4506d8b84\"}"
+    }
+  ]
+}

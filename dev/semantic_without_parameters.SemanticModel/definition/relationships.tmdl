@@ -1,0 +1,19 @@
+relationship b42073a8-77bb-49df-b663-cf9517a19d8a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: customers.created_at
+	toColumn: LocalDateTable_16ca4ba2-74f4-4497-973e-0d85512b9452.Date
+
+relationship ebd9234e-19b3-460b-aedf-6ccba7e5d537
+	joinOnDateBehavior: datePartOnly
+	fromColumn: fact.order_date
+	toColumn: LocalDateTable_2d12f936-d98e-4fb4-9920-6f33d748be9e.Date
+
+relationship 3f264f89-55de-4d25-9844-297712586058
+	joinOnDateBehavior: datePartOnly
+	fromColumn: products.created_at
+	toColumn: LocalDateTable_0b3ae750-882c-4f30-b4ad-34d60c480714.Date
+
+relationship AutoDetected_be5fe6ec-60dc-43e2-955b-1a33b03112c5
+	fromColumn: fact.customer_id
+	toColumn: customers.customer_id
+
